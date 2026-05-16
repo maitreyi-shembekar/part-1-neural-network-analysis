@@ -1,0 +1,5 @@
+Experiment,Config,Train Acc,Test Acc,Train Loss,Test Loss
+Base Model,"Layers:[12], LR:0.01, Epochs:20, BS:32, Act:relu",0.9869,0.985,0.0333,0.0887
+Deeper Network,"Layers:[16, 8], LR:0.01, Epochs:20, BS:32, Act:relu",0.995,0.96,0.0162,0.1397
+Slower Learning,"Layers:[12], LR:0.001, Epochs:50, BS:32, Act:relu",0.985,0.985,0.0516,0.0615
+Tanh Activation,"Layers:[12], LR:0.01, Epochs:20, BS:32, Act:tanh",0.9887,0.9825,0.0375,0.0688
